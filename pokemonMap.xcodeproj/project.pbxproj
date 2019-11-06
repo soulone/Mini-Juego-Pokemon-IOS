@@ -16,6 +16,8 @@
 		FDF33B8223735FEC00A46F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF33B8023735FEC00A46F6F /* LaunchScreen.storyboard */; };
 		FDF33B8D23735FEC00A46F6F /* pokemonMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF33B8C23735FEC00A46F6F /* pokemonMapTests.swift */; };
 		FDF33B9823735FEC00A46F6F /* pokemonMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF33B9723735FEC00A46F6F /* pokemonMapUITests.swift */; };
+		FDF33BA72373600400A46F6F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF33BA62373600400A46F6F /* MapKit.framework */; };
+		FDF33BA923737BCA00A46F6F /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF33BA823737BCA00A46F6F /* PokedexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FDF33B9323735FEC00A46F6F /* pokemonMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokemonMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF33B9723735FEC00A46F6F /* pokemonMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemonMapUITests.swift; sourceTree = "<group>"; };
 		FDF33B9923735FEC00A46F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF33BA62373600400A46F6F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FDF33BA823737BCA00A46F6F /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF33BA72373600400A46F6F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,7 @@
 				FDF33B8B23735FEC00A46F6F /* pokemonMapTests */,
 				FDF33B9623735FEC00A46F6F /* pokemonMapUITests */,
 				FDF33B7023735FEA00A46F6F /* Products */,
+				FDF33BA52373600400A46F6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +115,7 @@
 				FDF33B8023735FEC00A46F6F /* LaunchScreen.storyboard */,
 				FDF33B8323735FEC00A46F6F /* Info.plist */,
 				FDF33B7B23735FEA00A46F6F /* pokemonMap.xcdatamodeld */,
+				FDF33BA823737BCA00A46F6F /* PokedexViewController.swift */,
 			);
 			path = pokemonMap;
 			sourceTree = "<group>";
@@ -129,6 +136,14 @@
 				FDF33B9923735FEC00A46F6F /* Info.plist */,
 			);
 			path = pokemonMapUITests;
+			sourceTree = "<group>";
+		};
+		FDF33BA52373600400A46F6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF33BA62373600400A46F6F /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +279,7 @@
 			files = (
 				FDF33B7723735FEA00A46F6F /* ViewController.swift in Sources */,
 				FDF33B7323735FEA00A46F6F /* AppDelegate.swift in Sources */,
+				FDF33BA923737BCA00A46F6F /* PokedexViewController.swift in Sources */,
 				FDF33B7D23735FEA00A46F6F /* pokemonMap.xcdatamodeld in Sources */,
 				FDF33B7523735FEA00A46F6F /* SceneDelegate.swift in Sources */,
 			);
